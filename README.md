@@ -7,6 +7,9 @@ This is an Extract, Transform, Load (ETL) project leveraging the Spotify API and
 ### Architecture Diagram
 ![Architecture Diagram](https://github.com/datahub-by-urmi/spotify-etl-pipeline-project/blob/main/Spotify_ETL_architacture_diagram.png)
 
+### About Dataset/API:
+This project utilizes the Spotify Web API to retrieve and analyze metadata for approximately 78 top-performing songs, including their associated artists, albums, and audio features. The dataset provides a focused snapshot of music trends for analysis. [Spotify API](https://spotipy.readthedocs.io/en/2.25.1/)
+
 ### Services Used
 
 1. **S3 (Simple Storage Service):**  Amazon S3 is a robust, highly scalable **object storage service.** It allows us to **store and retrieve any volume of data**, making it ideal for large media files and general data backups.
@@ -20,6 +23,14 @@ This is an Extract, Transform, Load (ETL) project leveraging the Spotify API and
 5. **Data Catalog**  This service functions as a central, fully managed **metadata repository**. It simplifies the process of **discovering and managing data**, allowing you to easily integrate it with other AWS services like **Athena** for analysis.
 
 6. **Amazon Athena**  An interactive query service that allows for easy **data analysis directly in Amazon S3** using **standard SQL**. It integrates seamlessly with the **Glue Data Catalog** to query structured data residing in S3 buckets.
+
+### Install Packages: 
+```
+pip install pandas as pd
+pip install numpy
+pip install spotipy
+
+```
 
 
 
