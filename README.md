@@ -5,7 +5,10 @@ In this project, we will create an ETL (Extract, Transform, Load) pipeline on AW
 This is an Extract, Transform, Load (ETL) project leveraging the Spotify API and AWS. The pipeline is designed to retrieve raw data, apply transformations, and load the final, useful results into an AWS data store.
 
 ### Architecture Diagram
-![Architecture Diagram](https://myoctocat.com/assets/images/base-octocat.svg)
+![Architecture Diagram](https://github.com/datahub-by-urmi/spotify-etl-pipeline-project/blob/main/Spotify_ETL_architacture_diagram.png)
+
+### Services Used
+
 
 
 
